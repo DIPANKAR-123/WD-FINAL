@@ -23,7 +23,7 @@
   color:#2f6343 ;
   background: rgb(28, 251, 7);
   box-shadow: 0 0 10px,0 0 40px #2196f3,0 0 80px #2196f3;
-  transition-delay: 1s;
+  transition-delay: 0.25s;
 }
 .neon span{
   position: absolute ;
