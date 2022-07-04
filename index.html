@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="navi_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header drop_font">
+        <!-- <div class="drop_font"> -->
+
+
+        <nav id="navbar">
+            <img src="WhatsApp Image 2022-07-02 at 10.45.02 AM.jpeg" class="logo">
+            <ul id="menu">
+                <b>
+                    <u>
+                        <a href="index.html" class="neon">
+                            <li>HOME</li>
+                        </a>
+                        <div class="dropdown">
+                            <b> <button class="dropbtn">
+                                    <li  class="neon" ><b>LANGUAGES</b></li>
+                                </button></b>
+                            <div class="dropdown-content">
+                                <a href="https://www.geeksforgeeks.org/c-plus-plus/">C++</a>
+                                <a href="https://www.geeksforgeeks.org/python-programming-language/">Python</a>
+                                <a href="https://www.geeksforgeeks.org/java/">Java</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <b> <button class="dropbtn" class="neon">
+                                    <li  class="neon"><b>DSA</b></li>
+                                </button></b>
+                            <div class="dropdown-content">
+                                <a href="https://www.geeksforgeeks.org/array-data-structure/">ARRAY</a>
+                                <a href="https://www.geeksforgeeks.org/string-data-structure/">STRING</a>
+                                <a href="https://www.geeksforgeeks.org/vector-in-cpp-stl/">VECTOR</a>
+                                <a href="https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/">OOPS</a>
+                                <a href="https://www.geeksforgeeks.org/data-structures/linked-list/?ref=gcse">LINKED
+                                    LISTS</a>
+                                <a href="https://www.geeksforgeeks.org/introduction-to-tree-data-structure/">TREES</a>
+                                <a href="https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/">GRAPH</a>
+                                <a href="https://www.geeksforgeeks.org/dynamic-programming/">DP</a>
+                            </div>
+                        </div>
+                        <!-- <li>DSA</li> -->
+                        <a href="https://www.w3schools.com/" class="neon">
+                            <li >WEB DEV</li>
+                        </a>
+                        <a href="https://dipankar-123.github.io/CuriousCoders/" class="neon">
+                            <li>OLD WEBSITE</li>
+                        </a>
+                        <a href="form.html" class="neon">
+                            <li>SIGN UP</li>
+                        </a>
+                        <a href="contact.html" class="neon">
+                            <li>Contact</li>
+                        </a>
+                    </u>
+                </b>
+            </ul>
+        </nav>
+        <!-- </div> -->
+    </div>
+
+    <div class="text">
+        <h1>
+            <center>WHAT IS PROGRAMMING?</center>
+        </h1>
+        <!-- <pre>I don't have words to thank this man,
+             I'm really grateful to have this channel and 
+             website in my daily routine. 
+             If you're a mere beginner, then you can trust 
+             this guy and can put your time into his content.
+              I can assure you that it'll be worth it.</pre> -->
+
+        <p>Programming is an exercise or practice that boost our logical thinking and improves a problem-solving skill.
+            It teaches us how to accomplish a task with the help of a computer program or software. Therefore, in simple
+            terms, programming is a task to implement a solution to a problem in the form of computer language. In this
+            section, we will discuss the word programming, programming languages, its type, advantages, disadvantages,
+            and their uses.<br><br></p>
+        <!-- <div> -->
+        <p>Programming is a creative task: there is no right or wrong way to solve a problem, in the same way,
+            &nbsp;that there is no right or wrong way to paint a picture.<br><br></p>
+        <!-- </div> -->
+        <p>There are choices to be made, and one way may seem better than another, but that doesn’t mean the other is
+            wrong! With the right skills and experience, a programmer can craft software to solve an unlimited number of
+            problems – from telling you when your next train will arrive at playing your favourite music.
+
+            The possibilities are constrained only by your imagination. That’s why I love programming.
+
+        </p>
+    </div>
+    <!-- <div class="whatphoto"> -->
+
+    <img src="https://static.javatpoint.com/core/images/what-is-programming.png" width="200px" class="whatphoto">
+
+    <!-- </div> -->
+
+    <h2 id="head2"> Most Popular Programming Languages </h2>
+    <ol type="1">
+        <li>C</li>
+        <li>Python</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>C#</li>
+        <li>JavaScript</li>
+        <li>Swift</li>
+        <li>Go</li>
+        <li>Ruby</li><br>
+    </ol>
+    <div class="credit">
+        <footer>
+            <h3><u><b>Made by Dipankar Yadav </b></u></h3>
+            <a href="mailto:dipankaryadav1234@gmail.com"> <img src="gmail.png" class="linki joini sizey" style="width: 54px;" alt=""></a>
+            
+            <a href="https://www.linkedin.com/in/dipankar-yadav-ba6663157/"><img src="linkedin.png" class="linki joini" alt=""></a>
+            <a href="https://github.com/DIPANKAR-123"><img src="github-sign.png" class="linki joini" alt=""></a>
+           
+        </footer>
+
+    </div>
+    <script>
+        var navbar = document.getElementById("navbar");
+        var menu = document.getElementById("menu");
+        window.onscroll = function () {
+            if (window.pageYOffset >= menu.offsetTop) {
+                navbar.classList.add("sticky");
+            }
+            else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+</html>
